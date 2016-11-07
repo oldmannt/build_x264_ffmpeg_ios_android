@@ -17,10 +17,12 @@ gas-preprocessor.pl was download from https://github.com/yuvi/gas-preprocessor
     ```
 2. build-ios-x264.sh
 set SOURCE:x264 path, FAT: fat lib output path, THIN: libs outputpath  
+chmod +x build-ios-x264.sh
 ./build-ios-x264.sh
 
 3. build-ios-ffmpeg.sh
 set SOURCE:ffmpeg path, X264: x264 library, FAT: fat lib output path, THIN: libs output path  
+chmod +x build-ios-ffmpeg.sh
 ./build-ios-ffmpeg.sh
 
 ###android
@@ -29,7 +31,8 @@ armeabi-v7a arm64-v8a x86_64 x86
 
 1. edit build_android_x264.sh
 set NDK, PREFIX_DIR output directory, SOURCE:x264 source directory  
-./build_android_x264_all.sh
+chmod +x build_android_x264.sh
+./build_android_x264.sh
 
 2. edit ffmpeg/configure
 For the output format like this libavcodec-55.so, which is accepted in Android. You need to edit ffmpeg/configure as follow:    
@@ -55,6 +58,7 @@ Find these codes:
 
 3. edit build_android_ffmpeg.sh
 set NDK, OUTPUT_DIR, SOURCE: ffmpeg source directory, X264_DIR: x264 include and lib  
-./build_android_ffmpeg_all.sh
+chmod +x build_android_ffmpeg.sh
+./build_android_ffmpeg.sh
 
 
