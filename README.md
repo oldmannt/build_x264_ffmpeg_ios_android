@@ -66,4 +66,5 @@ https://github.com/yesimroy/build-scripts-of-ffmpeg-x264-for-android-ndk
 https://github.com/WritingMinds/ffmpeg-android
 http://writingminds.github.io/ffmpeg-android/
 https://github.com/FFmpeg/FFmpeg
+http://vinsol.com/blog/2014/07/30/cross-compiling-ffmpeg-with-x264-for-android/
 
