@@ -61,4 +61,9 @@ set NDK, OUTPUT_DIR, SOURCE: ffmpeg source directory, X264_DIR: x264 include and
 chmod +x build_android_ffmpeg.sh
 ./build_android_ffmpeg.sh
 
+###Reference
+https://github.com/yesimroy/build-scripts-of-ffmpeg-x264-for-android-ndk
+https://github.com/WritingMinds/ffmpeg-android
+http://writingminds.github.io/ffmpeg-android/
+https://github.com/FFmpeg/FFmpeg
 
